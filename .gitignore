@@ -1,0 +1,57 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+# See https://github.com/github/gitignore/blob/main/Unity.gitignore for details
+
+# ====== VCS ======
+.svn/
+
+# Ignore any user-specific Unity folder preferences
+[Bb]uild/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Uu]ser[Ss]ettings/
+
+# User-specific files
+*.swp
+*.user
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.unityproj
+*.tmproj
+.idea/
+.vscode/
+
+# Uncomment this section if you have the 'Visual Studio' asset package installed.
+# Otherwise, you can remove it if not applicable.
+# !/[Aa]ssets/**/[Ee]ditor/**
+
+# Logs
+/[Ll]ogs/
+
+# Ignore crash reports
+*.stacktrace
+
+# Project-specific ignore files
+[Pp]roject[Ss]ettings/ProjectSettings.asset
+[Pp]roject[Ss]ettings/TagManager.asset
+[Pp]roject[Ss]ettings/ProjectVersion.txt
+[Pp]roject[Ss]ettings/EditorBuildSettings.asset
+[Pp]roject[Ss]ettings/BuildSettings.asset
+
+# Generated files
+[Bb]uilds/
+[Tt]emp/
+*.svd
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other files
+[Aa]ssets/[Pp]lugins/
+[Aa]ssets/StreamingAssets/
+[Aa]ssets/External/
+[Aa]ssets/Gizmos/
